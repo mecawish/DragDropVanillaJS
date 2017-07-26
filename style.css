@@ -1,0 +1,62 @@
+* {
+	font-family: Arial;
+	color: #fff;
+}
+
+div {
+	display: inline-block;
+	vertical-align: top;
+}
+
+button {
+  background: #16a085;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  border-style: none;
+}
+
+button:hover {
+	cursor: pointer;
+	background: #1abc9c;
+}
+
+#dropZone {
+	height: 400px;
+	width: 65%;
+	margin-top: 20px;
+	border: 4px solid #16a085;
+	background: #bdc3c7;
+}
+
+#panel {
+	width: 15%;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.drag {
+	position: absolute;
+	height: 80px;
+	min-width: 120px;
+	border: 4px solid #1abc9c;
+	text-align: center;
+}
+
+.drag:active {
+	outline: #ecf0f1 solid 1px; 
+}
+
+.drag div {
+	min-height: 22px;
+	background-color: #1abc9c;
+}
+
+.editText {
+	width: 90%;
+}
+
+.close {
+	width: 10%;
+	cursor: pointer;
+}
+
